@@ -2,7 +2,7 @@ import React, { useState } from 'react';
   import { StyleSheet, Text, View } from 'react-native';
   import { Dropdown } from 'react-native-element-dropdown';
   import AntDesign from '@expo/vector-icons/AntDesign';
-
+//Dropdown using search
   const data = [
     { label: 'Item 1', value: '1' },
     { label: 'Item 2', value: '2' },

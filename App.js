@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import ClaimForm from './pages/ClaimForm';
 import TextInputBorder from './pages/TextInputBorder';
 import SearchBar from './pages/SearchBar';

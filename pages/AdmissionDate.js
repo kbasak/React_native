@@ -2,7 +2,7 @@ import DateTimePicker from "@react-native-community/datetimepicker";
 import { useState } from "react";
 import { Button, Keyboard, StyleSheet, TextInput, TouchableWithoutFeedback, View } from "react-native";
 import { AntDesign, Fontisto, Ionicons } from "@expo/vector-icons";
-
+//Date Picker
 function AdmissionDate() {
 
     const [date, setDate] = useState(new Date());

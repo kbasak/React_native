@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-
+//Credit Card style 
 const CardStyle = StyleSheet.create({
     container: {
         paddingTop: 20,

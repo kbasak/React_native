@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image, ScrollView, ImageBackground, Pressable } from 'react-native';
 import ProgressBar from './ProgressBar';
 import CardStyle from './CardStyle';
-
+//Credit Card Component
 const Card = () => {
 
 const [cards, setCards] = useState([

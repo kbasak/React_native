@@ -1,7 +1,7 @@
 import { View, TextInput, StyleSheet } from "react-native";
 import { Feather } from '@expo/vector-icons';
 import { useState } from "react";
-
+//text input with edit & discard option
 function TextInputBorder() {
     const [addressEditable, setAdressEditable] = useState(false);
     const [address, setAddress] = useState('Claim Details');

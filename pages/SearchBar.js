@@ -1,6 +1,7 @@
 import React from "react";
 import { StyleSheet, TextInput, View, Keyboard, Button } from "react-native";
 import { Feather, Entypo } from "@expo/vector-icons";
+//Search Bar in dropdown
 
 const SearchBar = ({clicked=true, searchPhrase, setSearchPhrase, setCLicked}) => {
   return (
