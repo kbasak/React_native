@@ -5,7 +5,6 @@ import TextInputBorder from './pages/TextInputBorder';
 import SearchBar from './pages/SearchBar';
 import DateCalender from './pages/DateCalender';
 import { LinearGradient } from 'expo-linear-gradient';
-import CreditCard from './pages/CreditCard';
 import Card from './componets/card/Card';
 import ProgressBar from './componets/card/ProgressBar';
 
@@ -19,13 +18,13 @@ export default function App() {
     //   <View style={styles.container}>
     //     <StatusBar backgroundColor='black' />
     //     {/* <DateCalender/> */}
-    //    <ClaimForm />
+        <ClaimForm />
     //     {/* <TextInputBorder/> */}
     //     {/* <EditIcon/> */}
     //   </View>
     // </LinearGradient>
     // <View>
-       <Card />
+    //   <Card />
     // </View>
   );
 }
