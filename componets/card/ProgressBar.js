@@ -1,5 +1,5 @@
 import { Animated, StyleSheet, Text, View } from "react-native";
-
+//progress bar component
 function ProgressBar({ limit, expenditure, cardNumber }) {
     var creditCardNumber=cardNumber.slice(-7);
     var totalOunstandings=expenditure;
