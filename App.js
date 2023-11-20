@@ -1,20 +1,40 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import ClaimForm from './pages/ClaimForm';
+import TextInputBorder from './pages/TextInputBorder';
+import SearchBar from './pages/SearchBar';
+import DateCalender from './pages/DateCalender';
+import { LinearGradient } from 'expo-linear-gradient';
+import CreditCard from './pages/CreditCard';
+import Card from './componets/card/Card';
+import ProgressBar from './componets/card/ProgressBar';
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <LinearGradient
+    //   colors={['#ccffff', '#ffffcc', '#99ffff']}
+    //   locations={[0.00001, .8, 1]} 
+    //   style={{ flex: 1 }}>
+    //   <View style={styles.container}>
+    //     <StatusBar backgroundColor='black' />
+    //     {/* <DateCalender/> */}
+    //    <ClaimForm />
+    //     {/* <TextInputBorder/> */}
+    //     {/* <EditIcon/> */}
+    //   </View>
+    // </LinearGradient>
+    // <View>
+       <Card />
+    // </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
+    alignItems: 'left',
     justifyContent: 'center',
+    flexDirection: 'row'
   },
+  
 });
